@@ -9,7 +9,7 @@ RUN apk add --no-cache \
     jq \
     openssl \
     wireguard-tools
-    initify-tools
+    inotify-tools
     transmission-remote
 
 # Modify wg-quick so it doesn't die without --privileged
