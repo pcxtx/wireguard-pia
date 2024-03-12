@@ -8,8 +8,8 @@ RUN apk add --no-cache \
     iptables-legacy \
     jq \
     openssl \
-    wireguard-tools
-    inotify-tools
+    wireguard-tools \
+    inotify-tools \
     transmission-remote
 
 # Modify wg-quick so it doesn't die without --privileged
