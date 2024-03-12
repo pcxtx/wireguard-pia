@@ -9,6 +9,8 @@ RUN apk add --no-cache \
     jq \
     openssl \
     wireguard-tools
+    initify-tools
+    transmission-remote
 
 # Modify wg-quick so it doesn't die without --privileged
 # Set net.ipv4.conf.all.src_valid_mark=1 on container creation using --sysctl if required instead
