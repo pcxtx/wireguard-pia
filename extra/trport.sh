@@ -12,7 +12,7 @@ do
 
         if [ $OLDPORT -ne $PORT ]; then
                 echo "Setting Transmission port to ($PORT)."
-                transmission-remote http://192.168.1.122:9092/transmission -p $PORT
+                transmission-remote http://$IP/transmission -p $PORT
                 OLDPORT=$PORT
         fi
 
